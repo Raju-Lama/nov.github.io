@@ -1,0 +1,60 @@
+div {
+    font-family: "Old Standard TT", serif;
+    text-align: center;
+    width: 550px;
+    background:rgb(54, 147, 218);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+
+    /* The text is in lowercase in the HTML file,
+    changing it to uppercase. */
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+
+    /* Applying underline 
+    and converting to uppercase. */
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+
+    /* Applying capitalization to 
+    the first letter of each word. */
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    background-color: brown;
+    color: #ffffff;
+
+    /* Applying capitalization to 
+    the first letter of each word. */
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+span {
+    /* Applying strike-through for the old price. */
+    text-decoration: line-through;
+    font-size: 28px;
+    color: #292929;
+}
